@@ -22,9 +22,9 @@ const Clock: React.FC = () => {
 
   return (
     <div className="clock-container">
-      <div className="branding">Nguyễn Quốc Đạt Originals</div>
-      <div className="time">{formatTime(time)}</div>
-      <div className="date">{formatDate(time)}</div>
+      <div className="branding no-select">Nguyễn Quốc Đạt Originals</div> 
+      <div className="time no-select">{formatTime(time)}</div>
+      <div className="date no-select">{formatDate(time)}</div>
     </div>
   );
 };
