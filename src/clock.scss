@@ -1,0 +1,22 @@
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+  }
+  
+  .branding {
+    font-size: 60px;
+    color: yellow;
+  }
+  
+  .time {
+    font-size: 300px;
+    color: white;
+  }
+  
+  .date {
+    font-size: 100px;
+    color: white;
+  }  
