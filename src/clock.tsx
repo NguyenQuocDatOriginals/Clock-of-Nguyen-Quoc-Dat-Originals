@@ -13,7 +13,7 @@ const Clock: React.FC = () => {
   }, []);
 
     const formatTime = (date: Date) => {
-      return date.toLocaleTimeString('nz-NZ', { timeZone: 'Oceanian/New Zealand', hour12: false });
+      return date.toLocaleTimeString('en-US', { timeZone: 'America/Honolulu', hour12: false });
     };
 
     const formatDate = (date: Date) => {
