@@ -13,7 +13,7 @@ const Clock: React.FC = () => {
   }, []);
 
     const formatTime = (date: Date) => {
-      return date.toLocaleTimeString('tr-TR', { timeZone: 'Europe/Istanbul', hour12: false });
+      return date.toLocaleTimeString('vi-VN', { hour12: false });
     };
 
     const formatDate = (date: Date) => {
