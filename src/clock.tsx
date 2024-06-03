@@ -12,13 +12,13 @@ const Clock: React.FC = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const formatTime = (date: Date) => {
-    return date.toLocaleTimeString('vi-VN', { hour12: false });
-  };
+    const formatTime = (date: Date) => {
+      return date.toLocaleTimeString('jp-JP', { timeZone: 'Asia/Tokyo', hour12: false });
+    };
 
-  const formatDate = (date: Date) => {
-    return date.toLocaleDateString('vi-VN');
-  };
+    const formatDate = (date: Date) => {
+      return date.toLocaleDateString('vi-VN');
+    };
 
   return (
     <div className="clock-container">
