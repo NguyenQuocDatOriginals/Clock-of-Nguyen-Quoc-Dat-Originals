@@ -4,4 +4,4 @@
 
 * A demo project written in TypeScript + Vite + React
 
-#### Copyright © 2024 Nguyễn Quốc Đạt Originals
+#### Copyright © 2025 Nguyễn Quốc Đạt Originals
